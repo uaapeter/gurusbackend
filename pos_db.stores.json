@@ -1,0 +1,284 @@
+[{
+  "_id": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "storeName": "Garki",
+  "storePhone": "07030901628",
+  "location": {
+    "$oid": "6767383ea4cf75c50053462b"
+  },
+  "staff": [
+    {
+      "$oid": "6767404c96762af80f81b655"
+    },
+    {
+      "$oid": "6767421696762af80f81b660"
+    },
+    {
+      "$oid": "6767427e96762af80f81b663"
+    },
+    {
+      "$oid": "67673b6dd79bfb4aab565cbd"
+    },
+    {
+      "$oid": "676a36942ff790d2351f9657"
+    },
+    {
+      "$oid": "676a372c2ff790d2351f965e"
+    },
+    {
+      "$oid": "678133749f57b1cd6faf0a1b"
+    }
+  ],
+  "manager": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-21T22:04:29.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-10T14:53:51.645Z"
+  },
+  "__v": 0,
+  "products": [
+    {
+      "$oid": "6767f6295451e4fe9c7f4862"
+    },
+    {
+      "$oid": "6767fadbe9a85265d1397b1a"
+    },
+    {
+      "$oid": "677a4c04b7d7d63db1038a04"
+    },
+    {
+      "$oid": "6781347f9f57b1cd6faf0a57"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67673ba8d79bfb4aab565cbf"
+  },
+  "storeName": "Wuse Market",
+  "storePhone": "07030901629",
+  "location": {
+    "$oid": "6767385aa4cf75c50053462d"
+  },
+  "staff": [
+    {
+      "$oid": "67673ba8d79bfb4aab565cbf"
+    }
+  ],
+  "manager": {
+    "$oid": "6767427e96762af80f81b663"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-21T22:05:28.273Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T05:29:03.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67673bdbd79bfb4aab565cc2"
+  },
+  "storeName": "Utako Market Square",
+  "storePhone": "07030901624",
+  "location": {
+    "$oid": "67673869a4cf75c500534631"
+  },
+  "staff": [
+    {
+      "$oid": "67673bdbd79bfb4aab565cc2"
+    },
+    {
+      "$oid": "6767b4302f637199ceee55d1"
+    }
+  ],
+  "manager": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-21T22:06:19.102Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T06:39:44.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67677298fc216df60bd454e7"
+  },
+  "storeName": "Meaningful Wine Bar",
+  "storePhone": "08141615928",
+  "location": {
+    "$oid": "67673869a4cf75c500534631"
+  },
+  "staff": [
+    {
+      "$oid": "67677298fc216df60bd454e7"
+    }
+  ],
+  "manager": {
+    "$oid": "6767427e96762af80f81b663"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-22T01:59:52.458Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T05:42:37.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676772d6fc216df60bd45501"
+  },
+  "storeName": "Jotec Shop",
+  "storePhone": "08141615921",
+  "location": {
+    "$oid": "67673881a4cf75c500534635"
+  },
+  "staff": [],
+  "manager": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-22T02:00:54.669Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T02:00:54.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67677338fc216df60bd4551b"
+  },
+  "storeName": "Chidi Book Shop",
+  "storePhone": "08141615932",
+  "location": {
+    "$oid": "6767383ea4cf75c50053462b"
+  },
+  "staff": [
+    {
+      "$oid": "6767b4fe0b11102e425577c5"
+    }
+  ],
+  "manager": {
+    "$oid": "6767427e96762af80f81b663"
+  },
+  "status": "Closed",
+  "createdAt": {
+    "$date": "2024-12-22T02:02:32.995Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T06:43:10.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67677747fc216df60bd4554d"
+  },
+  "storeName": "Joyful Shop",
+  "storePhone": "08141615956",
+  "location": {
+    "$oid": "67673860a4cf75c50053462f"
+  },
+  "staff": [],
+  "manager": {
+    "$oid": "6767427e96762af80f81b663"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-22T02:19:51.027Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T02:19:51.027Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67679d4b0eae71be2c2dd57a"
+  },
+  "storeName": "Evlyn Store Mommy's Store",
+  "storePhone": "08141615922",
+  "location": {
+    "$oid": "6767383ea4cf75c50053462b"
+  },
+  "staff": [
+    {
+      "$oid": "67679d4b0eae71be2c2dd57a"
+    }
+  ],
+  "manager": {
+    "$oid": "6767427e96762af80f81b663"
+  },
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-22T05:02:03.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T05:46:14.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ad50dd66211336bfe52df"
+  },
+  "storeName": "Zone 1 Store",
+  "storePhone": "07030901723",
+  "location": {
+    "$oid": "67673860a4cf75c50053462f"
+  },
+  "staff": [
+    {
+      "$oid": "676ad5abd66211336bfe52f8"
+    }
+  ],
+  "manager": {
+    "$oid": "676a372c2ff790d2351f965e"
+  },
+  "products": [
+    {
+      "$oid": "676ad6f2d66211336bfe5349"
+    },
+    {
+      "$oid": "676c687f28c9a9c8eda73102"
+    },
+    {
+      "$oid": "676c68d728c9a9c8eda7312a"
+    },
+    {
+      "$oid": "676c68e628c9a9c8eda73141"
+    },
+    {
+      "$oid": "676c692a28c9a9c8eda73158"
+    },
+    {
+      "$oid": "676c699828c9a9c8eda73191"
+    },
+    {
+      "$oid": "676c6e68736e37d753cabe3a"
+    }
+  ],
+  "status": "Open",
+  "createdAt": {
+    "$date": "2024-12-24T15:36:45.146Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-10T14:27:49.464Z"
+  },
+  "__v": 0
+}]

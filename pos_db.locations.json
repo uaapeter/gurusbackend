@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6767383ea4cf75c50053462b"
+  },
+  "locationName": "Garki",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:50:54.228Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:50:54.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6767385aa4cf75c50053462d"
+  },
+  "locationName": "Wuse 1",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:51:22.814Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:51:22.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67673860a4cf75c50053462f"
+  },
+  "locationName": "Wuse 2",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:51:28.367Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:51:28.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67673869a4cf75c500534631"
+  },
+  "locationName": "Utako",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:51:37.489Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:51:37.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67673874a4cf75c500534633"
+  },
+  "locationName": "Mararaba",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:51:48.567Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:51:48.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67673881a4cf75c500534635"
+  },
+  "locationName": "Bannex",
+  "staff": [],
+  "createdBy": null,
+  "createdAt": {
+    "$date": "2024-12-21T21:52:01.160Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T21:52:01.160Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "fullName": "John Doe",
+  "username": "JD001",
+  "phoneNumber": "07030901628",
+  "emailAddress": "johndoe@gmail.com",
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "password": "$2b$20$LdaDYuFgdzNO9kJyP75ptuWDnvsllayAiPG4TPDl3F.oipne/KQrG",
+  "status": "Open",
+  "role": "Admin",
+  "createdAt": {
+    "$date": "2024-12-21T22:32:54.626Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T07:26:36.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6767b4302f637199ceee55d1"
+  },
+  "fullName": "Clever Dorcas",
+  "username": "CD003",
+  "phoneNumber": "08141615920",
+  "emailAddress": "dorcas@gmail.com",
+  "store": {
+    "$oid": "67673bdbd79bfb4aab565cc2"
+  },
+  "password": "$2b$20$lATylOzPmpNlvmNLn7PO1ej4QDqxHyN9QG72QGh4VY26S7payweRq",
+  "status": "Open",
+  "role": "Cashier",
+  "createdAt": {
+    "$date": "2024-12-22T06:39:44.715Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T06:39:44.715Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6767b4fe0b11102e425577c5"
+  },
+  "fullName": "Jenifer Idris",
+  "username": "JI004",
+  "phoneNumber": "08141615919",
+  "emailAddress": "jenifer@gmail.com",
+  "store": {
+    "$oid": "67677338fc216df60bd4551b"
+  },
+  "password": "$2b$20$5Nq4Ba13gL3a33uKMk4mhujMqZF2Bjsxt7gOml2cTEfj8OIZPr8D2",
+  "status": "Open",
+  "role": "Cashier",
+  "createdAt": {
+    "$date": "2024-12-22T06:43:10.366Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T06:43:10.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676a36942ff790d2351f9657"
+  },
+  "fullName": "Peter Uaa",
+  "username": "PU002",
+  "phoneNumber": "07030901659",
+  "emailAddress": "peteruaa@gmail.com",
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "password": "$2b$10$SYK90p6.IseE8r0HHPLam.3vmdfD.VIQpWY9qm1SaN4YSyrVm9joO",
+  "status": "Open",
+  "role": "Admin",
+  "createdAt": {
+    "$date": "2024-12-24T04:20:36.354Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-24T04:20:36.354Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676a372c2ff790d2351f965e"
+  },
+  "fullName": "Grace Doe",
+  "username": "GD002",
+  "phoneNumber": "07030901629",
+  "emailAddress": "gracedoe@gmail.com",
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "password": "$2b$10$Okj9kSSRimTBTYYapGXVnuxRVwqv6g0sNB1U46RoRQbjiNowTut8a",
+  "status": "Open",
+  "role": "Cashier",
+  "createdAt": {
+    "$date": "2024-12-24T04:23:08.001Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-29T05:09:19.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ad5abd66211336bfe52f8"
+  },
+  "fullName": "Samuel Doe",
+  "username": "SD005",
+  "phoneNumber": "08141615911",
+  "emailAddress": "sam@store.com",
+  "store": {
+    "$oid": "676ad50dd66211336bfe52df"
+  },
+  "password": "$2b$10$rpEEd0qAvBWZTjhnXbCu5OaLyX4RjamaQHzZmauX09Z9ctJ/hXdPG",
+  "status": "Open",
+  "role": "Cashier",
+  "createdAt": {
+    "$date": "2024-12-24T15:39:23.706Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-24T15:39:23.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678133749f57b1cd6faf0a1b"
+  },
+  "fullName": "Amina Yakubu",
+  "username": "AY002",
+  "phoneNumber": "08141615934",
+  "emailAddress": "aminayakubu@gmail.com",
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "password": "$2b$10$AjJjXzk3P87LKFs3q9bUZ.5qfdlcdSiIW8rzgfOVl4LXR8ZClN/km",
+  "status": "Open",
+  "role": "Cashier",
+  "createdAt": {
+    "$date": "2025-01-10T14:49:24.701Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-10T14:49:24.701Z"
+  },
+  "__v": 0
+}]

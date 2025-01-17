@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "6767f6295451e4fe9c7f4862"
+  },
+  "productBatch": "01-3892",
+  "barcode": "156000261201",
+  "productName": "Cway 750ml",
+  "productDescription": "Cway Nigeria Drinking Water Science & Tech",
+  "costPrice": 200,
+  "sellingPrice": 250,
+  "cartonQty": 12,
+  "supplier": {
+    "$oid": "6767f3d15451e4fe9c7f47e8"
+  },
+  "category": {
+    "$oid": "6767f3325451e4fe9c7f47dc"
+  },
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "mftDate": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-01-22T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "createdAt": {
+    "$date": "2024-12-22T11:21:13.253Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T11:21:13.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6767fadbe9a85265d1397b1a"
+  },
+  "productBatch": "A8-9088",
+  "barcode": "151100150608",
+  "productName": "Mirida",
+  "productDescription": "Carbonated Orange Flavoured Soft Drink",
+  "costPrice": 450,
+  "sellingPrice": 600,
+  "cartonQty": 20,
+  "supplier": {
+    "$oid": "6767fa4de9a85265d1397b02"
+  },
+  "category": {
+    "$oid": "6767f3325451e4fe9c7f47dc"
+  },
+  "store": {
+    "$oid": "67673b6dd79bfb4aab565cbd"
+  },
+  "mftDate": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-01-22T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "6767421696762af80f81b660"
+  },
+  "createdAt": {
+    "$date": "2024-12-22T11:41:15.433Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-22T11:41:15.433Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ad6f2d66211336bfe5349"
+  },
+  "productBatch": "JWL-0909-23",
+  "barcode": "156000261999",
+  "productName": "Ring",
+  "productDescription": "Wedding Ring",
+  "costPrice": 20000,
+  "sellingPrice": 25000,
+  "cartonQty": 30,
+  "supplier": {
+    "$oid": "6767d571b7188cb9977170a3"
+  },
+  "category": {
+    "$oid": "676ad64bd66211336bfe5313"
+  },
+  "store": {
+    "$oid": "676ad50dd66211336bfe52df"
+  },
+  "mftDate": {
+    "$date": "2024-12-24T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-01-24T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "676a36942ff790d2351f9657"
+  },
+  "createdAt": {
+    "$date": "2024-12-24T15:44:50.662Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-24T15:44:50.662Z"
+  },
+  "__v": 0
+}]
