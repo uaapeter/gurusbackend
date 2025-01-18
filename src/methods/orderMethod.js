@@ -42,6 +42,42 @@ export const getSalesOrders = async (req, res) => {
     }
 }
 
+export const getSalesOrdersUnPaid = async (req, res) => {
+    try {
+        const {_id, role } = req.user
+
+        if(role !== 'Admin') {
+            const orders = await Order.find({orderType: 'SALE', cashier: _id, status: 'Open'})
+            .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
+            .populate({
+                path: 'orderItems',
+                selected: {__v: 0, updatedAt: 0},
+                populate: {
+                    path: 'product',
+                    selected: {__v: 0, updatedAt: 0}
+                }
+            }).sort({updatedAt: -1})
+
+            return res.send({message: 'success', orders})
+        }
+
+        const orders = await Order.find({orderType: 'SALE', status: 'Open'})
+            .populate({
+                path: 'orderItems',
+                selected: {__v: 0, updatedAt: 0},
+                populate: {
+                    path: 'product',
+                    selected: {__v: 0, updatedAt: 0}
+                }
+            }).sort({updatedAt: -1})
+            .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
+        return res.send({message: 'success', orders})
+
+    } catch (error) {
+        return res.status(500).json({status: false, errorCode: 500, message: `Internal server error ${error}`})
+    }
+}
+
 
 export const getCurrentSalesOrders = async (req, res) => {
     try {
