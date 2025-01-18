@@ -53,7 +53,7 @@ export const createStore = async (req, res, next) => {
             const store = await Store.findByIdAndUpdate(req.body?._id, {$set:{...req.body}})
             await Store.findByIdAndUpdate(store, {$addToSet:{staff: req.body?._id}})
 
-            await Staff.findByIdAndUpdate(manager, {$set: {role: manager ? 'Admin': 'Cashier'}})
+            await Staff.findByIdAndUpdate(manager, {$set: {role: manager ? 'Manager': 'Cashier'}})
             return res.status(200).json({status: true, message: 'Success', store})
         }
 
@@ -62,7 +62,7 @@ export const createStore = async (req, res, next) => {
         await store.save()
 
 
-        await Staff.findByIdAndUpdate(manager, {$set: {role: manager ? 'Admin': 'Cashier'}})
+        await Staff.findByIdAndUpdate(manager, {$set: {role: manager ? 'Manager': 'Cashier'}})
 
         res.status(200).json({status: true, message: 'Success', store})
     } catch (error) {
