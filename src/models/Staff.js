@@ -42,7 +42,7 @@ const StaffSchema = new GLOBAL.Schema({
     role: {
         type: String,
         default: 'Cashier',
-        enum: ['Admin', 'Cashier']
+        enum: ['Admin', 'Manager', 'Cashier']
     }
 }, {
     timestamps: true
