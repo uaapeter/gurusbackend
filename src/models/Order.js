@@ -25,6 +25,7 @@ const orderSchema = new GLOBAL.Schema({
         type: GLOBAL.Schema.Types.ObjectId, ref: 'staff'
     },
     amount: Number,
+    amountInWords: String,
     totalPaid: {
         type: Number,
         default: 0
