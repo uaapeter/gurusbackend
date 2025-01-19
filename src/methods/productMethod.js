@@ -1,3 +1,4 @@
+import { isValidObjectId } from "mongoose";
 import { STATUS_CODES } from "../global/app-errors.js"
 import { Category } from "../models/Category.js"
 import { Product } from "../models/Product.js"
@@ -82,6 +83,11 @@ export const createProduct= async (req, res, next) => {
     try {
         const {user} = req
         const { barcode, productBatch, productName, productDescription, costPrice, sellingPrice, cartonQty, supplier, category, store, mftDate, expireDate } = req.body
+        if(!isValidObjectId(category)) return res.status(STATUS_CODES.BAD_REQUEST).json({status:false, message: 'Invalid category'})
+        if(!isValidObjectId(store)) return res.status(STATUS_CODES.BAD_REQUEST).json({status:false, message: 'Invalid Store'})
+
+        if(!isValidObjectId(supplier)) return res.status(STATUS_CODES.BAD_REQUEST).json({status:false, message: 'Invalid Supplier'})
+
 
         const product = new Product({barcode, productBatch, productName, productDescription, costPrice, sellingPrice, cartonQty, supplier, category, store, mftDate, expireDate})
 
@@ -120,6 +126,3 @@ export const createProduct= async (req, res, next) => {
         
     }
 }
-
-
-

@@ -32,7 +32,7 @@ const appServer = async () => {
     app.use(GLOBAL.express.static(path.join(__dirname, 'out')))
 
 
-    app.use('/api/v1/store', STORE_ROUTER.router)
+    app.use('/api/v1/store', requireToken, STORE_ROUTER.router)
     app.use('/api/v1/user', STAFF_ROUTER.router)
     app.use('/api/v1/order', requireToken, ORDER_ROUTER.router)
     app.use('/api/v1/location', LOCATION_ROUTER.router)

@@ -1,3 +1,4 @@
+import { isValidObjectId } from "mongoose"
 import { STATUS_CODES } from "../global/app-errors.js"
 import { Staff } from "../models/Staff.js"
 import { Store } from "../models/Store.js"
@@ -38,7 +39,9 @@ export const createStore = async (req, res, next) => {
         const {user} = req
         const { storeName, manager, location, storePhone, status, storeAddress, storeEmail } = req.body
 
-
+         if(!isValidObjectId(location)) return res.status(STATUS_CODES.BAD_REQUEST).json({status:false, message: 'Invalid location'})
+        if(!isValidObjectId(manager)) return res.status(STATUS_CODES.BAD_REQUEST).json({status:false, message: 'Invalid manager'})
+        
         const store = new Store({storeName, manager, location, storePhone, status, storeAddress, storeEmail})
 
 
