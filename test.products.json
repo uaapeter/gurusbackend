@@ -1,0 +1,1140 @@
+[{
+  "_id": {
+    "$oid": "678b7f6adbc1bb9ec0f90389"
+  },
+  "productBatch": "12/01/2024",
+  "barcode": "GNMS01",
+  "productName": "Royal Honey Syrup",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:16:10.097Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:17:13.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b866ad6e8bf7b09a51d7c"
+  },
+  "productBatch": "12/02/2024",
+  "barcode": "GNMS01Exqdrip",
+  "productName": "Exquisite Drip",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:46:02.644Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:46:02.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b86af1ebcb650939daba3"
+  },
+  "productBatch": "12/03/2024",
+  "barcode": "GNMS01TKO",
+  "productName": "TKO",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 10000,
+  "sellingPrice": 12000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:47:11.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:47:11.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b86fe1ebcb650939dabaf"
+  },
+  "productBatch": "12/04/2024",
+  "barcode": "GNMS01intoxic",
+  "productName": "Intoxic",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 6000,
+  "sellingPrice": 8000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:48:30.529Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:48:30.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b8747e0ff501e7b0aa526"
+  },
+  "productBatch": "12/05/2024",
+  "barcode": "GNMS01vjay volcano ",
+  "productName": "Vjay.volcano",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:49:43.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:49:43.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b87bfd6e8bf7b09a51d90"
+  },
+  "productBatch": "12/06/2024",
+  "barcode": "GNMS01womanpower",
+  "productName": "Woman power big size",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 13000,
+  "sellingPrice": 15000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:51:43.874Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:51:43.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b88dd1ebcb650939dabcf"
+  },
+  "productBatch": "12/08/2024",
+  "barcode": "GNMS01vjaysugar",
+  "productName": "Vjay Sugar",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 3000,
+  "sellingPrice": 5000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T10:56:29.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T10:56:29.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b8a0de0ff501e7b0aa54c"
+  },
+  "productBatch": "12/09/2024",
+  "barcode": "GNMS01vjaysalt",
+  "productName": "Vjay salt ",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 6000,
+  "sellingPrice": 8000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:01:33.663Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:01:33.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b8a7dff7c9e6a9f5a5e7c"
+  },
+  "productBatch": "12/10/24",
+  "barcode": "GNMS01sugarlump",
+  "productName": "Sugar lump",
+  "productDescription": "Sweetners/wetness and libido boosting ",
+  "costPrice": 2000,
+  "sellingPrice": 3000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:03:25.339Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:03:25.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b9183d9eb63fc8b6b8497"
+  },
+  "productBatch": "11/2/2024",
+  "barcode": "GNMS01liquidrock",
+  "productName": "Liquid Rock",
+  "productDescription": "Tightening ",
+  "costPrice": 5000,
+  "sellingPrice": 7000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:33:23.997Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:33:23.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b936edf764616a259e36a"
+  },
+  "productBatch": "11/3/2024",
+  "barcode": "GNMS01Roadblock",
+  "productName": "Road Block Syrup ",
+  "productDescription": "Tightening ",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:41:34.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:41:34.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b9427d9eb63fc8b6b84af"
+  },
+  "productBatch": "11/4/2024",
+  "barcode": "GNMS01superintense",
+  "productName": "Super Intense",
+  "productDescription": "Bonding ",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:44:39.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:44:39.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b96a4aa9e8242031e06bc"
+  },
+  "productBatch": "11/5/2024",
+  "barcode": "GNMS01Ayuoil",
+  "productName": "Ayu Oil",
+  "productDescription": "Bonding ",
+  "costPrice": 13000,
+  "sellingPrice": 15000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T11:55:16.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T11:55:16.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b98ea7aaae4709b27c9bc"
+  },
+  "productBatch": "11/6/2024",
+  "barcode": "GNMS01milkofaffection",
+  "productName": "Milk of affection ",
+  "productDescription": "Bonding ",
+  "costPrice": 13000,
+  "sellingPrice": 15000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T12:04:58.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T12:04:58.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678ba95f8f1e303640990084"
+  },
+  "productBatch": "11/11/24",
+  "barcode": "Gnms01yoniherbs",
+  "productName": "yoni steaming herbs",
+  "productDescription": "wellness/fertility",
+  "costPrice": 5000,
+  "sellingPrice": 7000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:15:11.177Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:15:11.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678ba9d7266dee15744c8030"
+  },
+  "productBatch": "11/12/24",
+  "barcode": "Gnms01vjaymusk",
+  "productName": "vjay musk",
+  "productDescription": "wellness/fertility",
+  "costPrice": 5000,
+  "sellingPrice": 7000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:17:11.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:17:11.268Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bac667fa5c849fbe02590"
+  },
+  "productBatch": "11/13/24",
+  "barcode": "Gnms01booboil",
+  "productName": "aphrodite boob oil",
+  "productDescription": "wellness/fertility",
+  "costPrice": 10000,
+  "sellingPrice": 12000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2026-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:28:06.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:28:06.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678badeee112ef1588b17f65"
+  },
+  "productBatch": "11/14/24",
+  "barcode": "Gnms01buttoil",
+  "productName": "aphrodite butt oil",
+  "productDescription": "Body Ehancement",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:34:38.588Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:34:38.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bae766179b24201d533d7"
+  },
+  "productBatch": "11/15/24",
+  "barcode": "Gnms01ufs",
+  "productName": "upgraded favour soap",
+  "productDescription": "Attraction/Favour",
+  "costPrice": 13000,
+  "sellingPrice": 15000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:36:54.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:36:54.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678baef641fa9f319cb3fc68"
+  },
+  "productBatch": "11/16/24",
+  "barcode": "Gnms01cleopowder",
+  "productName": "Cleo attraction set",
+  "productDescription": "Attraction/Favour",
+  "costPrice": 38000,
+  "sellingPrice": 40000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:39:02.324Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:39:02.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678baf643ff35c95214ea190"
+  },
+  "productBatch": "11/17/24",
+  "barcode": "Gnms01emperor",
+  "productName": "Emperor",
+  "productDescription": "Men boosters",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:40:52.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:40:52.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bafd33ac4b8c2e560308f"
+  },
+  "productBatch": "11/18/24",
+  "barcode": "Gnms01relishoil",
+  "productName": "Relish oil",
+  "productDescription": "Bonding",
+  "costPrice": 13000,
+  "sellingPrice": 15000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b776e532cf80eebaab4f9"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T13:42:43.639Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T13:42:43.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bbfed6b9e065c688781e4"
+  },
+  "productBatch": "11/20/24",
+  "barcode": "Gnms01butter",
+  "productName": "Clarifying butter",
+  "productDescription": "skin Care",
+  "costPrice": 3000,
+  "sellingPrice": 5000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T14:51:25.054Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T14:51:25.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bc40f60c0d0174b723d8d"
+  },
+  "productBatch": "11/21/24",
+  "barcode": "Gnms01bodyoil",
+  "productName": "Skin nectar oil",
+  "productDescription": "skin Care",
+  "costPrice": 8000,
+  "sellingPrice": 10000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:09:03.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:09:03.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bc486ecb2421c95b3100f"
+  },
+  "productBatch": "11/22/24",
+  "barcode": "Gnms01blacksoap",
+  "productName": "Glow black soap ",
+  "productDescription": "skin Care",
+  "costPrice": 4000,
+  "sellingPrice": 6000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:11:02.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:11:02.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bc7d009a351fd6210f279"
+  },
+  "productBatch": "11/23/24",
+  "barcode": "Gnms01dilk",
+  "productName": "Dilka scrub",
+  "productDescription": "skin Care",
+  "costPrice": 3000,
+  "sellingPrice": 5000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:25:04.638Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:25:04.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bc856b42f25be2c47f4a8"
+  },
+  "productBatch": "11/24/24",
+  "barcode": "Gnms01qahwa",
+  "productName": "Qahwa ",
+  "productDescription": "skin Care",
+  "costPrice": 3000,
+  "sellingPrice": 5000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:27:18.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:27:18.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bcd10eef92699aa319071"
+  },
+  "productBatch": "11/25/24",
+  "barcode": "Gnms01elixir",
+  "productName": " Sugar Elixir",
+  "productDescription": "skin Care",
+  "costPrice": 6500,
+  "sellingPrice": 8500,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:47:28.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:47:28.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bcdc6cf7e1501b631f7dc"
+  },
+  "productBatch": "11/26/24",
+  "barcode": "Gnms01faceoil",
+  "productName": "Renew facial oil",
+  "productDescription": "skin Care",
+  "costPrice": 5000,
+  "sellingPrice": 7000,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T15:50:30.266Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T15:50:30.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678bd6fbcaa7530de0d94984"
+  },
+  "productBatch": "11/27/24",
+  "barcode": "Gnms01wax",
+  "productName": " sugar wax",
+  "productDescription": "skin Care",
+  "costPrice": 5500,
+  "sellingPrice": 7500,
+  "cartonQty": 1,
+  "supplier": {
+    "$oid": "678b7dee6e6e395fd62903fe"
+  },
+  "category": {
+    "$oid": "678b774c68965a098f103a89"
+  },
+  "store": {
+    "$oid": "678b5c6a54f6e79b4fdc024f"
+  },
+  "mftDate": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "expireDate": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "status": "Active",
+  "createdBy": {
+    "$oid": "678b5e683eca7a53ca3bcdf6"
+  },
+  "createdAt": {
+    "$date": "2025-01-18T16:29:47.915Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-18T16:29:47.915Z"
+  },
+  "__v": 0
+}]

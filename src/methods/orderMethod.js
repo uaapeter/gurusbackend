@@ -2,6 +2,31 @@ import { STATUS_CODES } from "../global/app-errors.js"
 import { Order } from "../models/Order.js"
 import { Orderitem } from "../models/OrderItems.js";
 import { Product } from "../models/Product.js";
+import { Staff } from "../models/Staff.js";
+
+
+export const sumTotal = (data, type) => {
+
+    if(type === 'amount') {
+        const reducer = (acc, currVal) => acc + (isNaN(currVal.amount) ? 0 : currVal?.amount)
+
+        const total = data?.reduce(reducer,0)
+       
+        return total
+    }
+
+    if(type === 'total') {
+        // const total = data?.reduce((a, b) => a+b.total, 0)
+
+        const reducer = (acc, currVal) => acc + (isNaN(currVal.total) ? 0 : currVal?.total)
+
+        const total = data?.reduce(reducer,0)
+       
+        return total
+    }
+
+   
+}
 
 let start = new Date();
 start.setHours(0,0,0,0)
@@ -111,6 +136,72 @@ export const getCurrentSalesOrders = async (req, res) => {
                 }
             }).sort({updatedAt: -1})
         return res.send({message: 'success', orders})
+
+    } catch (error) {
+        return res.status(500).json({status: false, errorCode: 500, message: `Internal server error ${error}`})
+    }
+}
+
+
+
+export const getBalanceSheet = async (req, res) => {
+    try {
+        const {_id, role } = req.user
+
+        const {startDate, endDate} = req.params
+
+
+        const start  = new Date(startDate)
+        const end  = new Date(endDate)
+
+
+        end.setDate(end.getDate() + 1)
+        // searchQuery.setHours(0,0,0,0)
+      
+
+
+
+        if(role !== 'Admin') {
+            
+            return res.send({message: 'success', orders: []})
+        }
+
+        const orders = await Order.find({orderType: 'SALE', createdAt: { $gte: start, $lt: end}})
+            .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
+       
+        const cashierSales = []
+        const totalSales = sumTotal(orders, 'amount')
+        const totalPos = sumTotal(orders.filter(i =>i.paymentMethod == 'POS'), 'amount')
+        const totalCash = sumTotal(orders.filter(i =>i.paymentMethod == 'Cash'), 'amount')
+        const totalTransfer = sumTotal(orders.filter(i =>i.paymentMethod == 'Transfer'), 'amount')
+
+        const dryCashAmount = orders?.length > 0 ? orders?.filter(item => item.status =='Open' && item.amount > item.totalPaid)?.reduce((a, b) =>  a + b.amount - b.totalPaid, 0) : 0
+        const changeAmount = orders?.length > 0 ? orders?.filter(item =>item.totalPaid >  item.amount )?.reduce((a, b) =>  a +  b.totalPaid - b.amount, 0) : 0
+        // const totalAmount = data?.length > 0 ? data?.reduce((a, b) =>  a + b.amount, 0) : 0
+
+
+        const cashiers = await Staff.find({role: 'Cashier'})
+
+        cashiers.flatMap(item =>{
+            const sales = orders.filter(order =>order.cashier?._id?.equals(item._id))
+            
+            if(sales.length > 0) {
+                cashierSales.push( {cashier: {fullName: item.fullName, userName: item.username, id: item.id}, sales})
+            }
+        })
+
+        console.log(orders)
+
+        return res.send({message: 'success', result: {
+            cashierSales,
+            totalSales,
+            totalPos,
+            totalCash,
+            totalTransfer,
+            dryCashAmount,
+            changeAmount
+        }})
+
 
     } catch (error) {
         return res.status(500).json({status: false, errorCode: 500, message: `Internal server error ${error}`})
@@ -239,7 +330,7 @@ export const placeOrder = async (req, res, next) => {
         if(error && error.message) return res.status(STATUS_CODES.BAD_REQUEST).json({status: false, errorCode: STATUS_CODES.BAD_REQUEST, message: error.message.split(':')[2].split(',')[0]});
 
         await Order.findOneAndUpdate({orderId}, {
-                orderId, status, orderOn, orderType, customer, cashier, amount, amountInWords, discount, totalPaid, paymentMethod
+                orderId, status, orderOn, orderType, customer, cashier, amount, discount, amountInWords, totalPaid, paymentMethod
             },
             {
                 upsert:true

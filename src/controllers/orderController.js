@@ -1,5 +1,5 @@
 import {GLOBAL} from  '../global/index.js'
-import { getSalesOrders, placeOrder, getAllOrderItems, getCurrentSalesOrders, getSavedOrders, getSalesOrdersUnPaid } from '../methods/orderMethod.js'
+import { getSalesOrders, placeOrder, getAllOrderItems, getCurrentSalesOrders, getSavedOrders, getSalesOrdersUnPaid, getBalanceSheet } from '../methods/orderMethod.js'
 
 const router = GLOBAL.express?.Router()
 
@@ -9,6 +9,8 @@ router
     .get('/current', getCurrentSalesOrders)
     .get('/saved', getSavedOrders)
     .get('/unpaid', getSalesOrdersUnPaid)
+    .get('/balancesheet/:startDate/:endDate', getBalanceSheet)
+
 
     .post('/', placeOrder)
 
