@@ -190,7 +190,6 @@ export const getBalanceSheet = async (req, res) => {
             }
         })
 
-        console.log(orders)
 
         return res.send({message: 'success', result: {
             cashierSales,

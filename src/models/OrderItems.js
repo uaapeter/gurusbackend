@@ -19,6 +19,9 @@ const orderItemSchema = new GLOBAL.Schema({
     product: {
         type: GLOBAL.Schema.Types.ObjectId, ref:'product'
     },
+    attendance: {
+        type: GLOBAL.Schema.Types.ObjectId, ref:'staff'
+    },
     quantity: Number,
     amount: Number,
     discount: Number,
