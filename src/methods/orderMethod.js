@@ -286,7 +286,7 @@ async function handleUpdateProduct(id, type, qty) {
 }
 
 
-async function handleUpdateOrderItem(item, next) {
+async function handleUpdateOrderItem(item, id, next) {
     try {
         const { quantity, orderType, product, orderRow, orderId } = item;
 
@@ -297,12 +297,12 @@ async function handleUpdateOrderItem(item, next) {
             const qty = quantity > orderItem?.quantity ? quantity - orderItem?.quantity : quantity < orderItem.quantity ? orderItem.quantity - quantity : 0;
             const type = orderType == 'PURCHASE' && quantity < orderItem?.quantity ? 'SALE' : orderType; 
 
-            await Orderitem.findOneAndUpdate({orderRow}, {...item}, {upsert:true});
+            await Orderitem.findOneAndUpdate({orderRow}, {...item, attendance: item?.attendance ? item?.attendance: id }, {upsert:true});
 
             return handleUpdateProduct(product, type, qty);
         }
 
-       await Orderitem.findOneAndUpdate({orderRow}, {...item}, {upsert:true});
+       await Orderitem.findOneAndUpdate({orderRow}, {...item, attendance: item?.attendance ? item?.attendance: id}, {upsert:true});
        const newitem = await Orderitem.findOne({orderRow})
        await Order.findOneAndUpdate({orderId}, {$addToSet: {orderItems: newitem?._id}})
 
@@ -337,8 +337,9 @@ export const placeOrder = async (req, res, next) => {
         )
 
         VALUES.flatMap( async item => {
-           await handleUpdateOrderItem(item, next)
+           await handleUpdateOrderItem(item, user?._id, next)
         });
+
 
         setTimeout( async() => {
             const order = await Order.findOne({orderId})

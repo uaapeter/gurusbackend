@@ -20,6 +20,7 @@ const orderItemSchema = new GLOBAL.Schema({
         type: GLOBAL.Schema.Types.ObjectId, ref:'product'
     },
     attendance: {
+        default:null,
         type: GLOBAL.Schema.Types.ObjectId, ref:'staff'
     },
     quantity: Number,
