@@ -30,6 +30,10 @@ const orderSchema = new GLOBAL.Schema({
         type: Number,
         default: 0
     },
+    charge: {
+        type: Number,
+        default: 0
+    },
     discount: {
         type: Number,
         default: 0

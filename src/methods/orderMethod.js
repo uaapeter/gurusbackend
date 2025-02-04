@@ -320,16 +320,16 @@ export const placeOrder = async (req, res, next) => {
         // console.log(req.body)
         const {user} = req
         const cashier = user?._id
-        const { orderId, status, orderType, paymentMethod, customer, amount, amountInWords, discount, totalPaid, VALUES } = req.body
+        const { orderId, status, orderType, paymentMethod, customer, amount, amountInWords, charge, discount, totalPaid, VALUES } = req.body
         const orderOn = new Date().toISOString()
         if(!orderType || !customer || !cashier || !amount || !VALUES?.length > 0) return res.status(STATUS_CODES.BAD_REQUEST).json({status: false, errorCode: STATUS_CODES.BAD_REQUEST, message: `Invalid request`})
-        const newOrder = new Order({orderId, status, orderOn, discount, orderType, customer,  cashier, amount, amountInWords, totalPaid, paymentMethod})
+        const newOrder = new Order({orderId, status, orderOn, charge, discount, orderType, customer,  cashier, amount, amountInWords, totalPaid, paymentMethod})
         
         const error = newOrder.validateSync()
         if(error && error.message) return res.status(STATUS_CODES.BAD_REQUEST).json({status: false, errorCode: STATUS_CODES.BAD_REQUEST, message: error.message.split(':')[2].split(',')[0]});
 
         await Order.findOneAndUpdate({orderId}, {
-                orderId, status, orderOn, orderType, customer, cashier, amount, discount, amountInWords, totalPaid, paymentMethod
+                orderId, status, orderOn, orderType, customer, cashier, amount, charge, discount, amountInWords, totalPaid, paymentMethod
             },
             {
                 upsert:true

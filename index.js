@@ -13,6 +13,7 @@ import { CATEGORY_ROUTER } from './src/controllers/categoryController.js'
 import { PRODUCT_ROUTER } from './src/controllers/productController.js'
 import { ORDER_ROUTER } from './src/controllers/orderController.js'
 import { DISCOUNT_ROUTER } from './src/controllers/discountController.js'
+import { CHARGE_ROUTER } from './src/controllers/chargeController.js'
 
 const appServer = async () => {
     dotenv.config()
@@ -40,6 +41,7 @@ const appServer = async () => {
     app.use('/api/v1/category', requireToken, CATEGORY_ROUTER.router)
     app.use('/api/v1/product', requireToken, PRODUCT_ROUTER.router)
     app.use('/api/v1/discount', requireToken, DISCOUNT_ROUTER.router)
+    app.use('/api/v1/charges', requireToken, CHARGE_ROUTER.router)
 
     app.get('/v1/about', (req, res) => {
         res.send('This is my about route....')
