@@ -24,6 +24,10 @@ const orderSchema = new GLOBAL.Schema({
     cashier: {
         type: GLOBAL.Schema.Types.ObjectId, ref: 'staff'
     },
+    supplier: {
+        default: null,
+        type: GLOBAL.Schema.Types.ObjectId, ref: 'supplier'
+    },
     amount: Number,
     amountInWords: String,
     totalPaid: {
