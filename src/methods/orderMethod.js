@@ -212,7 +212,7 @@ export const getSavedOrders = async (req, res) => {
         const {_id, role } = req.user
 
         if(role !== 'Admin') {
-            const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Pending', cashier: _id})
+            const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Open', cashier: _id})
             .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
             .populate({
                 path: 'orderItems',
@@ -226,7 +226,7 @@ export const getSavedOrders = async (req, res) => {
             return res.send({message: 'success', orders})
         }
 
-        const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Pending'})
+        const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Open'})
             .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
             .populate({
                 path: 'orderItems',
