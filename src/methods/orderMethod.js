@@ -3,6 +3,7 @@ import { Order } from "../models/Order.js"
 import { Orderitem } from "../models/OrderItems.js";
 import { Product } from "../models/Product.js";
 import { Staff } from "../models/Staff.js";
+import { Transaction } from "../models/Transaction.js";
 
 
 export const sumTotal = (data, type) => {
@@ -212,7 +213,7 @@ export const getSavedOrders = async (req, res) => {
         const {_id, role } = req.user
 
         if(role !== 'Admin') {
-            const orders = await Order.find({orderType: 'SALE', status: 'Open', cashier: _id})
+            const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Pending', cashier: _id})
             .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
             .populate({
                 path: 'orderItems',
@@ -226,7 +227,7 @@ export const getSavedOrders = async (req, res) => {
             return res.send({message: 'success', orders})
         }
 
-        const orders = await Order.find({orderType: 'SALE', status: 'Open'})
+        const orders = await Order.find({orderType: 'SALE', paymentMethod: 'Pending'})
             .populate('cashier', {__v: 0, password: 0, updatedAt: 0})
             .populate({
                 path: 'orderItems',
@@ -340,7 +341,10 @@ export const placeOrder = async (req, res, next) => {
            await handleUpdateOrderItem(item, user?._id, next)
         });
 
-
+        const transaction = new Transaction({amount, cashier: user?._id, orderId, paymentMethod})
+        await transaction.save()
+        await Order.findOneAndUpdate({orderId}, {$addToSet: {transactions: transaction._id}})
+        
         setTimeout( async() => {
             const order = await Order.findOne({orderId})
             .populate({

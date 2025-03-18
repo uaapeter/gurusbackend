@@ -50,6 +50,10 @@ const orderSchema = new GLOBAL.Schema({
     orderItems: [{
         type: GLOBAL.Schema.Types.ObjectId, ref: 'orderitem'
     }],
+    transactions: [{
+        type: GLOBAL.Schema.Types.ObjectId, ref: 'transaction'
+    }],
+
     deleted: Boolean
 }, {
     timestamps: true
