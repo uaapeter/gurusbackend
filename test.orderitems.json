@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "67cf1877a0172f25ef87e073"
+  },
+  "orderRow": "4951aa77-30f9-4f59-a182-2119b90ebca7",
+  "__v": 0,
+  "amount": 9000,
+  "attendance": {
+    "$oid": "679a34f428541af7c992a8bb"
+  },
+  "createdAt": {
+    "$date": "2025-03-10T16:51:03.670Z"
+  },
+  "discount": 0,
+  "orderId": "INV-79C892",
+  "orderType": "SALE",
+  "product": {
+    "$oid": "678fec6aaac925e5f4ccc2bb"
+  },
+  "productBatch": "10/13/2024",
+  "quantity": 1,
+  "total": 9000,
+  "updatedAt": {
+    "$date": "2025-03-10T16:51:03.670Z"
+  }
+}]

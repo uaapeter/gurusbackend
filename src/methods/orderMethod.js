@@ -341,7 +341,7 @@ export const placeOrder = async (req, res, next) => {
            await handleUpdateOrderItem(item, user?._id, next)
         });
 
-        const transaction = new Transaction({amount, cashier: user?._id, orderId, paymentMethod})
+        const transaction = new Transaction({amount:totalPaid, cashier: user?._id, orderId, paymentMethod})
         await transaction.save()
         await Order.findOneAndUpdate({orderId}, {$addToSet: {transactions: transaction._id}})
         
